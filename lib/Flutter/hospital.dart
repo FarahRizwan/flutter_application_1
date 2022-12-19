@@ -5,8 +5,6 @@
 
 // ignore_for_file: unnecessary_const
 
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class Class6 extends StatelessWidget {
