@@ -1,10 +1,3 @@
-// Container Widget and its all properties
-//Row/Column widget
-//What is single and multi child widget
-// Padding
-
-// ignore_for_file: unnecessary_const
-
 import 'package:flutter/material.dart';
 
 class Class6 extends StatelessWidget {
@@ -15,9 +8,7 @@ class Class6 extends StatelessWidget {
     return Scaffold(
         drawer: Drawer(
           width: 250,
-
           backgroundColor: Colors.white,
-
           // ignore: prefer_const_literals_to_create_immutables
           child: Column(children: [
             const UserAccountsDrawerHeader(
@@ -27,16 +18,8 @@ class Class6 extends StatelessWidget {
                 ),
                 accountName: Text("Test User"),
                 accountEmail: Text("Company Ltd")),
-
             // ignore: prefer_const_constructors
             ListTile(
-              // onTap: () {
-              // Navigator.push(
-              //   context,
-              //  MaterialPageRoute(
-              //    builder: ((context) => const ContainerW())));
-              //},
-
               leading: const Icon(Icons.dashboard),
               title: const Text("Applications"),
               selected: true,
@@ -86,17 +69,19 @@ class Class6 extends StatelessWidget {
           ]),
         ),
         appBar: AppBar(
+          //backgroundColor: Colors.brown,
           flexibleSpace: Container(
               decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                    bottomRight: Radius.circular(50),
+                    bottomLeft: Radius.circular(50),
+                  ),
                   gradient: LinearGradient(
-                      colors: [Colors.blue, Colors.green, Colors.teal]))),
-          toolbarHeight: 80,
+                      colors: [Colors.blue, Colors.teal, Colors.blue]))),
+          toolbarHeight: 100,
           centerTitle: true,
-          shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(
-            bottomRight: Radius.circular(25),
-            bottomLeft: Radius.circular(25),
-          )),
+          shadowColor: Colors.black,
+
           title: const Text("Applications"),
           actions: const [Icon(Icons.format_indent_decrease)],
         ),
@@ -112,21 +97,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 150,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          // ignore: prefer_const_literals_to_create_immutables
-                          boxShadow: [
-                            const BoxShadow(
-                              color: Color.fromARGB(255, 155, 118, 118),
-                              blurRadius: 4,
-                              offset: Offset(4, 8), // Shadow position
-                            ),
-                          ],
-                          border: Border.all(
-                            color: Colors.black,
-                          ),
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(10))),
+                      padding: const EdgeInsets.all(15),
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("images/background.jpeg"),
+                          fit: BoxFit.fill,
+                        ),
+                        borderRadius: BorderRadius.only(
+                            bottomRight: Radius.circular(25),
+                            topLeft: Radius.circular(25)),
+                      ),
                       child: Center(
                           child: Column(
                         children: const [
@@ -153,19 +133,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 150,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          // ignore: prefer_const_literals_to_create_immutables
-                          boxShadow: [
-                            const BoxShadow(
-                              color: Color.fromARGB(255, 155, 118, 118),
-                              blurRadius: 4,
-                              offset: Offset(4, 8), // Shadow position
-                            ),
-                          ],
-                          border: Border.all(color: Colors.black),
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(10))),
+                      padding: const EdgeInsets.all(15),
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("images/background.jpeg"),
+                          fit: BoxFit.fill,
+                        ),
+                        borderRadius: BorderRadius.only(
+                            bottomRight: Radius.circular(25),
+                            topLeft: Radius.circular(25)),
+                      ),
                       child: Center(
                           child: Column(
                         children: const [
@@ -177,7 +154,7 @@ class Class6 extends StatelessWidget {
                           Text(
                             "Sustainability",
                             style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
+                                fontSize: 16, fontWeight: FontWeight.bold),
                           ),
                           Text("Life Cycle and Environment",
                               style: TextStyle(
@@ -192,18 +169,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 150,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          boxShadow: [
-                            const BoxShadow(
-                              color: Color.fromARGB(255, 155, 118, 118),
-                              blurRadius: 4,
-                              offset: Offset(4, 8), // Shadow position
-                            ),
-                          ],
-                          border: Border.all(color: Colors.black),
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(10))),
+                      padding: const EdgeInsets.all(15),
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("images/background.jpeg"),
+                          fit: BoxFit.fill,
+                        ),
+                        borderRadius: BorderRadius.only(
+                            bottomRight: Radius.circular(25),
+                            topLeft: Radius.circular(25)),
+                      ),
                       child: Center(
                           child: Column(
                         children: const [
@@ -232,21 +207,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                       height: 150,
                       width: 150,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          // ignore: prefer_const_literals_to_create_immutables
-                          boxShadow: [
-                            const BoxShadow(
-                              color: Color.fromARGB(255, 155, 118, 118),
-                              blurRadius: 4,
-                              offset: Offset(4, 8), // Shadow position
-                            ),
-                          ],
-                          border: Border.all(
-                            color: Colors.black,
-                          ),
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(10))),
+                      padding: const EdgeInsets.all(15),
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("images/background.jpeg"),
+                          fit: BoxFit.fill,
+                        ),
+                        borderRadius: BorderRadius.only(
+                            bottomRight: Radius.circular(25),
+                            topLeft: Radius.circular(25)),
+                      ),
                       child: Center(
                           child: Column(
                         children: const [
@@ -277,21 +247,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                         height: 150,
                         width: 150,
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            // ignore: prefer_const_literals_to_create_immutables
-                            boxShadow: [
-                              const BoxShadow(
-                                color: Color.fromARGB(255, 155, 118, 118),
-                                blurRadius: 4,
-                                offset: Offset(4, 8), // Shadow position
-                              ),
-                            ],
-                            border: Border.all(
-                              color: Colors.black,
-                            ),
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(10))),
+                        padding: const EdgeInsets.all(15),
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage("images/background.jpeg"),
+                            fit: BoxFit.fill,
+                          ),
+                          borderRadius: BorderRadius.only(
+                              bottomRight: Radius.circular(25),
+                              topLeft: Radius.circular(25)),
+                        ),
                         child: Center(
                           child: Column(
                             children: const [
@@ -319,21 +284,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                         height: 150,
                         width: 150,
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            // ignore: prefer_const_literals_to_create_immutables
-                            boxShadow: [
-                              const BoxShadow(
-                                color: Color.fromARGB(255, 155, 118, 118),
-                                blurRadius: 4,
-                                offset: Offset(4, 8), // Shadow position
-                              ),
-                            ],
-                            border: Border.all(
-                              color: Colors.black,
-                            ),
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(10))),
+                        padding: const EdgeInsets.all(15),
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage("images/background.jpeg"),
+                            fit: BoxFit.fill,
+                          ),
+                          borderRadius: BorderRadius.only(
+                              bottomRight: Radius.circular(25),
+                              topLeft: Radius.circular(25)),
+                        ),
                         child: Center(
                           child: Column(
                             children: const [
@@ -361,26 +321,21 @@ class Class6 extends StatelessWidget {
                     child: Container(
                         height: 150,
                         width: 150,
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            // ignore: prefer_const_literals_to_create_immutables
-                            boxShadow: [
-                              const BoxShadow(
-                                color: Color.fromARGB(255, 155, 118, 118),
-                                blurRadius: 4,
-                                offset: Offset(4, 8), // Shadow position
-                              ),
-                            ],
-                            border: Border.all(
-                              color: Colors.black,
-                            ),
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(10))),
+                        padding: const EdgeInsets.all(15),
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage("images/background.jpeg"),
+                            fit: BoxFit.fill,
+                          ),
+                          borderRadius: BorderRadius.only(
+                              bottomRight: Radius.circular(25),
+                              topLeft: Radius.circular(25)),
+                        ),
                         child: Center(
                           child: Column(
                             children: const [
                               Icon(
-                                Icons.design_services_rounded,
+                                Icons.explore,
                                 color: Colors.red,
                                 size: 45,
                               ),
@@ -403,20 +358,16 @@ class Class6 extends StatelessWidget {
                     child: Container(
                         height: 150,
                         width: 150,
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            boxShadow: [
-                              const BoxShadow(
-                                color: Color.fromARGB(255, 155, 118, 118),
-                                blurRadius: 4,
-                                offset: Offset(4, 8), // Shadow position
-                              ),
-                            ],
-                            border: Border.all(
-                              color: Colors.black,
-                            ),
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(10))),
+                        padding: const EdgeInsets.all(15),
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage("images/background.jpeg"),
+                            fit: BoxFit.fill,
+                          ),
+                          borderRadius: BorderRadius.only(
+                              bottomRight: Radius.circular(25),
+                              topLeft: Radius.circular(25)),
+                        ),
                         child: Center(
                           child: Column(
                             children: const [
