@@ -82,6 +82,102 @@ class Chat extends StatelessWidget {
                     backgroundImage: AssetImage("images/baby2.png"),
                   ),
                   trailing: Text("21/12/22")),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Divider(
+                  // height: 100,
+                  /*  indent: 20,
+              endIndent: 20, */
+                  color: Colors.grey,
+                  thickness: 2,
+                ),
+              ),
+              const ListTile(
+                  title: Text("Mom"),
+                  subtitle: Text("i am making Biryani"),
+                  leading: CircleAvatar(
+                    radius: 40,
+                    backgroundColor: Colors.brown,
+                    backgroundImage: AssetImage("images/mom.jpeg"),
+                  ),
+                  trailing: Text("21/12/22")),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Divider(
+                  // height: 100,
+                  /*  indent: 20,
+              endIndent: 20, */
+                  color: Colors.grey,
+                  thickness: 2,
+                ),
+              ),
+              const ListTile(
+                  title: Text("Sister"),
+                  subtitle: Text("Pick up the call"),
+                  leading: CircleAvatar(
+                    radius: 40,
+                    backgroundColor: Colors.brown,
+                    backgroundImage: AssetImage("images/sister.png"),
+                  ),
+                  trailing: Text("21/12/22")),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Divider(
+                  // height: 100,
+                  /*  indent: 20,
+              endIndent: 20, */
+                  color: Colors.grey,
+                  thickness: 2,
+                ),
+              ),
+              const ListTile(
+                  title: Text("Brother"),
+                  subtitle: Text("Hi, there!"),
+                  leading: CircleAvatar(
+                    radius: 40,
+                    backgroundColor: Colors.brown,
+                    backgroundImage: AssetImage("images/brother.jpeg"),
+                  ),
+                  trailing: Text("21/12/22")),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Divider(
+                  // height: 100,
+                  /*  indent: 20,
+              endIndent: 20, */
+                  color: Colors.grey,
+                  thickness: 2,
+                ),
+              ),
+              const ListTile(
+                  title: Text("Friend"),
+                  subtitle: Text("Lets go to party"),
+                  leading: CircleAvatar(
+                    radius: 40,
+                    backgroundColor: Colors.brown,
+                    backgroundImage: AssetImage("images/friend.jpeg"),
+                  ),
+                  trailing: Text("21/12/22")),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Divider(
+                  // height: 100,
+                  /*  indent: 20,
+              endIndent: 20, */
+                  color: Colors.grey,
+                  thickness: 2,
+                ),
+              ),
+
+              const ListTile(
+                  title: Text("Teacher"),
+                  subtitle: Text("Complete your homework"),
+                  leading: CircleAvatar(
+                    radius: 40,
+                    backgroundColor: Colors.brown,
+                    backgroundImage: AssetImage("images/teacher.png"),
+                  ),
+                  trailing: Text("21/12/22")),
             ],
           )
         ]),
