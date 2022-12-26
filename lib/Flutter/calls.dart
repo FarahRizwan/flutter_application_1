@@ -17,7 +17,7 @@ class Calls extends StatelessWidget {
                 title: const Text("Rizwan"),
                 subtitle: const Text("Today, 3:55pm"),
                 leading: const CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/boy.jpeg"),
                 ),
@@ -38,7 +38,7 @@ class Calls extends StatelessWidget {
                 title: Text("Farah"),
                 subtitle: Text("Yesterday, 2:30pm"),
                 leading: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/lady.jpeg"),
                 ),
@@ -58,7 +58,7 @@ class Calls extends StatelessWidget {
                 title: Text("Waniya"),
                 subtitle: Text("Today, 7:00 am"),
                 leading: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/baby1.jpeg"),
                 ),
@@ -79,7 +79,7 @@ class Calls extends StatelessWidget {
                 title: Text("Mominaah"),
                 subtitle: Text("Today, 5:00 pm"),
                 leading: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/baby2.png"),
                 ),
@@ -99,7 +99,7 @@ class Calls extends StatelessWidget {
                 title: Text("Mom"),
                 subtitle: Text("Today, 5:00 pm"),
                 leading: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/mom.jpeg"),
                 ),
@@ -119,7 +119,7 @@ class Calls extends StatelessWidget {
                 title: Text("Brother"),
                 subtitle: Text("Today, 2:00 pm"),
                 leading: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/brother.jpeg"),
                 ),
@@ -139,7 +139,7 @@ class Calls extends StatelessWidget {
                 title: Text("Sister"),
                 subtitle: Text("Today, 7:00 am"),
                 leading: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.brown,
                   backgroundImage: AssetImage("images/sister.png"),
                 ),

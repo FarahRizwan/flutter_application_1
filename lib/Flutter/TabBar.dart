@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Flutter/chat.dart';
 
 import 'package:flutter_application_1/Flutter/calls.dart';
+import 'package:flutter_application_1/Flutter/Status.dart';
 
 class Class8 extends StatelessWidget {
   const Class8({super.key});
@@ -9,12 +10,15 @@ class Class8 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2,
+      length: 3,
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.teal,
           actions: const [
-            Icon(Icons.camera_alt_rounded),
+            Icon(
+              Icons.camera_alt_rounded,
+            ),
+            Padding(padding: EdgeInsets.all(20)),
             Icon(Icons.search),
             Icon(Icons.more_vert),
           ],
@@ -26,7 +30,7 @@ class Class8 extends StatelessWidget {
                 fontStyle: FontStyle.normal, fontWeight: FontWeight.bold),
           ),
           bottom: const TabBar(
-              indicatorWeight: 5,
+              indicatorWeight: 3,
               indicatorSize: TabBarIndicatorSize.tab,
               indicatorColor: Colors.white,
               tabs: [
@@ -36,9 +40,12 @@ class Class8 extends StatelessWidget {
                 Tab(
                   text: "Calls",
                 ),
+                Tab(
+                  text: "Status",
+                )
               ]),
         ),
-        body: const TabBarView(children: [Chat(), Calls()]),
+        body: const TabBarView(children: [Chat(), Calls(), Status()]),
       ),
     );
   }

@@ -16,10 +16,11 @@ class Chat extends StatelessWidget {
               ListTile(
                   title: const Text("Rizwan"),
                   subtitle: const Text("Hello, How are you?"),
+                  // ignore: prefer_const_constructors
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
-                    backgroundImage: AssetImage("images/boy.jpeg"),
+                    backgroundImage: const AssetImage("images/boy.jpeg"),
                   ),
                   trailing: const Text("21/12/22")),
               const Padding(
@@ -37,7 +38,7 @@ class Chat extends StatelessWidget {
                   title: Text("Farah"),
                   subtitle: Text("Kindly bring some bread"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/lady.jpeg"),
                   ),
@@ -55,9 +56,9 @@ class Chat extends StatelessWidget {
               ),
               const ListTile(
                   title: Text("Waniya"),
-                  subtitle: Text("i have completed my homework"),
+                  subtitle: Text("I have completed my homework"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/baby1.jpeg"),
                   ),
@@ -77,7 +78,7 @@ class Chat extends StatelessWidget {
                   title: Text("Mominaah"),
                   subtitle: Text("Bring some milk for me"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/baby2.png"),
                   ),
@@ -94,9 +95,9 @@ class Chat extends StatelessWidget {
               ),
               const ListTile(
                   title: Text("Mom"),
-                  subtitle: Text("i am making Biryani"),
+                  subtitle: Text("I am making Biryani"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/mom.jpeg"),
                   ),
@@ -115,7 +116,7 @@ class Chat extends StatelessWidget {
                   title: Text("Sister"),
                   subtitle: Text("Pick up the call"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/sister.png"),
                   ),
@@ -134,7 +135,7 @@ class Chat extends StatelessWidget {
                   title: Text("Brother"),
                   subtitle: Text("Hi, there!"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/brother.jpeg"),
                   ),
@@ -153,7 +154,7 @@ class Chat extends StatelessWidget {
                   title: Text("Friend"),
                   subtitle: Text("Lets go to party"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
                     backgroundImage: AssetImage("images/friend.jpeg"),
                   ),
@@ -173,9 +174,11 @@ class Chat extends StatelessWidget {
                   title: Text("Teacher"),
                   subtitle: Text("Complete your homework"),
                   leading: CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundColor: Colors.brown,
-                    backgroundImage: AssetImage("images/teacher.png"),
+                    backgroundImage: AssetImage(
+                      "images/teacher.png",
+                    ),
                   ),
                   trailing: Text("21/12/22")),
             ],
