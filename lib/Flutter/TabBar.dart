@@ -16,10 +16,11 @@ class Class8 extends StatelessWidget {
           backgroundColor: Colors.teal,
           actions: const [
             Icon(
-              Icons.camera_alt_rounded,
+              Icons.camera_alt,
             ),
-            Padding(padding: EdgeInsets.all(20)),
+            Padding(padding: EdgeInsets.all(10)),
             Icon(Icons.search),
+            Padding(padding: EdgeInsets.all(10)),
             Icon(Icons.more_vert),
           ],
           elevation: 0,

@@ -7,55 +7,67 @@ class Class9 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("widgets"),
+        title: const Text("widgets"),
       ),
       body: ListView(
-        scrollDirection: Axis.horizontal,
+        scrollDirection: Axis.vertical,
         children: [
-          SizedBox(
+          // ignore: prefer_const_constructors
+
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.brown,
+          ),
+          Container(
+            height: 700,
+            width: 100,
+            color: Colors.black,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.brown,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.black,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.brown,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.black,
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.brown,
+          ),
+          Container(
             height: 200,
             width: 200,
-            child: Text("data"),
+            color: Colors.black,
           ),
           Container(
-            height: 100,
-            width: 100,
+            height: 200,
+            width: 200,
             color: Colors.brown,
           ),
           Container(
-            height: 100,
-            width: 100,
+            height: 200,
+            width: 200,
             color: Colors.black,
           ),
           Container(
-            height: 100,
-            width: 100,
+            height: 200,
+            width: 200,
             color: Colors.brown,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.black,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.black,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.black,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.black,
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.black,
           )
         ],
       ),

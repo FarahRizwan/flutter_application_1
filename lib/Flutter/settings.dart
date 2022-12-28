@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Flutter/listview.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({super.key});
@@ -132,15 +133,21 @@ class SignUp extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 20),
             child: Container(
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: const Color.fromARGB(255, 217, 210, 10),
-                  gradient: const LinearGradient(
-                      colors: [Colors.brown, Colors.grey, Colors.brown])),
-              height: 50,
-              width: 200,
-              child: const Center(child: Text("SignUp")),
-            ),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 217, 210, 10),
+                    gradient: const LinearGradient(
+                        colors: [Colors.brown, Colors.grey, Colors.brown])),
+                height: 50,
+                width: 200,
+                child: InkWell(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: ((context) => const Register())));
+                    },
+                    child: Center(child: const Text("SignUp")))),
           ),
         ]),
       ),
