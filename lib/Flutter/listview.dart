@@ -8,8 +8,7 @@ class Register extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("images/congratulations.jpeg"),
-              fit: BoxFit.cover)),
+              image: AssetImage("images/congrats.jpeg"), fit: BoxFit.cover)),
       // ignore: prefer_const_constructors
       child: Scaffold(
         backgroundColor: Colors.transparent,
