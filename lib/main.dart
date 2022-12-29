@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Flutter/gift.dart';
+import 'Flutter/game.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: Containers());
+    return const MaterialApp(debugShowCheckedModeBanner: false, home: game());
   }
 }
