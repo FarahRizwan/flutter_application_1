@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Flutter/Flutterlogo.dart';
-import 'package:flutter_application_1/Flutter/buttons.dart';
 
 import 'Flutter/Flutterlogo.dart';
 
