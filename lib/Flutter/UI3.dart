@@ -301,6 +301,7 @@ class UI3 extends StatelessWidget {
                             padding: const EdgeInsets.all(8.0),
                             child: Align(
                               alignment: Alignment.centerLeft,
+                              // ignore: prefer_const_literals_to_create_immutables
                               child: Row(children: [
                                 Padding(padding: EdgeInsets.only(left: 5)),
                                 CircleAvatar(
