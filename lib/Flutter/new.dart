@@ -23,7 +23,7 @@ class _applicationState extends State<application> {
         backgroundColor: Colors.transparent,
         // ignore: prefer_const_literals_to_create_immutables
         body: Column(children: [
-          Padding(padding: EdgeInsets.only(left: 2000, top: 20)),
+          Padding(padding: EdgeInsets.only(left: 200, top: 50)),
           const Text(
             "Sign In",
             style: TextStyle(
@@ -32,7 +32,7 @@ class _applicationState extends State<application> {
                 fontWeight: FontWeight.bold),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 250, vertical: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 40),
             child: TextFormField(
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
@@ -49,7 +49,7 @@ class _applicationState extends State<application> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 250, vertical: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 40),
             child: TextFormField(
               obscureText: true,
               keyboardType: TextInputType.emailAddress,
@@ -67,7 +67,7 @@ class _applicationState extends State<application> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 300),
+            padding: const EdgeInsets.only(left: 60),
             child: Row(
               children: [
                 Checkbox(
@@ -96,7 +96,7 @@ class _applicationState extends State<application> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 285.0, top: 10),
+            padding: const EdgeInsets.only(left: 55.0, top: 10),
             child: Row(
               children: [
                 Text("Don't have an account?"),
