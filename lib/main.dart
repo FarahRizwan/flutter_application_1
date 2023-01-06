@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
+//import 'package:flutter_application_1/Flutter/PubDevDep.dart';
+//import 'package:flutter_application_1/Flutter/Quiz.dart';
+//import 'package:flutter_application_1/Flutter/youtube.dart';
+//import 'package:flutter_application_1/Flutter/youtube.dart';
+//import 'package:flutter_application_1/Flutter/UI.dart';
 
-import 'Flutter/UI2.dart';
+import 'Flutter/Whatsap.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +17,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(debugShowCheckedModeBanner: false, home: ui2());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: splash());
   }
 }

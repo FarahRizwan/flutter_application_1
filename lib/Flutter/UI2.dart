@@ -1,12 +1,14 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class ui2 extends StatelessWidget {
   const ui2({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 194, 210, 233),
+      backgroundColor: const Color.fromARGB(255, 194, 210, 233),
       body: Column(
         children: [
           Padding(
@@ -33,10 +35,10 @@ class ui2 extends StatelessWidget {
               ),
             ),
           ),
-          Align(
+          const Align(
               alignment: Alignment.centerLeft,
               child: Padding(
-                padding: const EdgeInsets.only(left: 20),
+                padding: EdgeInsets.only(left: 20),
                 child: Text(
                     "Manage your daily tasks on \nthe basis of your routine"),
               )),
