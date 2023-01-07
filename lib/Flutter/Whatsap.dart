@@ -35,7 +35,7 @@ class _splashState extends State<splash> {
           children: [
             Center(
                 child: Padding(
-              padding: const EdgeInsets.only(top: 200),
+              padding: const EdgeInsets.only(top: 300),
               child: Icon(
                 Icons.whatsapp,
                 size: 100,
